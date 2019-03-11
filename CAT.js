@@ -1,11 +1,7 @@
 function Cat () {
 
 Cat.prototype.eat = function(mouse) {
-	this.stomach.push(mouse);
-}
-
-Cat.prototype.kill = function(mouse) {
-	console.log('Mouse was killed');
+	this.stomach.push(mouse)
 }
 
 module.exports = Cat;
