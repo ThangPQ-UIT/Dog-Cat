@@ -1,4 +1,5 @@
 function Cat () {
+<<<<<<< HEAD
 	this.stomach = [];
 }
 
@@ -11,3 +12,7 @@ Cat.prototype.kill = function(mouse) {
 }
 
 module.exports = Cat;
+=======
+	
+}
+>>>>>>> parent of 51604cb... Fix: missing exports
