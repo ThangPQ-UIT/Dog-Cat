@@ -1,9 +1,10 @@
 function Cat () {
-	this.stomach = [];
-}
 
+<<<<<<< HEAD
 Cat.prototype.eat = function(mouse) {
 	this.stomach.push(mouse);
+=======
+>>>>>>> parent of 6614001... Modify Cat file
 }
 
 Cat.prototype.kill = function(mouse) {
